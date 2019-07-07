@@ -54,4 +54,4 @@ command that is being initially sent by the first thread.
 
 ## ![](https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/unlocked-48.png) Mutex Lock
 
-All accounts that get stored in the server will be mutex lock protected. A client that accesses their account gets locked, once desired computation gets proccessed the account gets unlocked. No one will be able to access a single account at the same time.   Other clients will be prompted to wait before entering the accoutn. 
+All accounts that get stored in the server will be mutex lock protected. A client that accesses their account gets locked, once desired computation gets proccessed the account gets unlocked. No one will be able to access a single account at the same time.   Other clients will be prompted to wait before entering the account. 
