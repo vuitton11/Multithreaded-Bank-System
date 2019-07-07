@@ -1,5 +1,5 @@
 # Multithreaded-Bank-System
-A server program to emulates a bank and a client program to communicate with it 
+Multithreaded Bank System using TCP/IP to allow communication between server and client.
 
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
@@ -16,12 +16,14 @@ There is no need to wait for an input on the client, therefore the server can se
 
 When the client sends a command to the server the **tokenizer** file will split the command string into tokens then analyzed based on the possible valid commands for the server.
 
-* Open
-* Start 
-* debit 
-* credit 
-* balance 
-* Exit
+* create: creates a new account for the bank.
+* serve: starts a service session for a specific account.
+* deposit: adds funds to account balance 
+* withdraw: subtracts funds from account balance
+* query: query command simply returns the current account balance.
+* end: end command ends the current service session.
+* quit: disconnects the client from the server.
+* help: displays information about each action to the user. 
 
 If the string construction is valid we proceed, otherwise, we prompt an error “invalid command”
 
@@ -39,7 +41,7 @@ prompt you to try again.
 Client will not be able to open a non-existed account as the server will prompt a message “account doesn’t
 exist”
 
-The server max is 20 accounts If the server disconnects, the client gets disconnected automatically.
+The server max is 50 accounts If the server disconnects, the client gets disconnected automatically.
 
 Our client has a user interface, which the user uses as a tool to connect to the server. It’s as simple as a
 terminal that takes commands and sends them over to the server.
