@@ -1,6 +1,15 @@
 # Multithreaded-Bank-System
 Multithreaded Bank System using TCP/IP to allow communication between server and client.
 
+## ![]()Client/Server Start-up
+The client and server programs can be invoked in any order. Client processes that cannot find the
+server should repeatedly try to connect every 3 seconds until they find a server. The client must specify
+the name of the machine and port where the client expects to find the server process as a command-line
+argument. The server takes the port to listen on as the only argument:
+(be sure to use a port number over 8K (8192) that you pick for your group)
+./bankingServer 9999
+./bankingClient cp.cs.rutgers.edu 9999
+
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
 
 There is  thread that responds back to the client when the client sends a request to the server.
