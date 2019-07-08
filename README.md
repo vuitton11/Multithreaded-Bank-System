@@ -3,12 +3,11 @@ Multithreaded Bank System using TCP/IP to allow communication between server and
 
 ## ![](http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/48/Apps-Command-Prompt-Metro-icon.png) Client/Server Start-up
 The client and server programs can be invoked in any order. Client processes that cannot find the
-server should repeatedly try to connect every 3 seconds until they find a server. The client must specify
+server will repeatedly try to connect every 3 seconds until it find a server. The client must specify
 the name of the machine and port where the client expects to find the server process as a command-line
 argument.
 
 The server takes the port to listen on as the only argument:
-(be sure to use a port number over 8K (8192) that you pick for your group)
 <br>
 <pre>./bankingServer 9999</pre>
 <br>
