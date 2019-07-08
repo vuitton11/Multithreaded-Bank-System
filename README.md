@@ -11,10 +11,10 @@ The server takes the port to listen on as the only argument:
 (be sure to use a port number over 8K (8192) that you pick for your group)
 <br>
 <br>
-<pre>./bankingServer 9999<pre>
+<pre>./bankingServer 9999</pre>
 <br>
 <br>
-<pre>./bankingClient cp.cs.rutgers.edu 9999<pre>
+<pre>./bankingClient cp.cs.rutgers.edu 9999</pre>
 <br>
 <br>
 
