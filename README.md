@@ -11,7 +11,7 @@ The server takes the port to listen on as the only argument:
 <br>
 <pre>./bankingServer 9999</pre>
 <br>
-<pre>./bankingClient cp.cs.rutgers.edu 9999</pre>
+<pre>./bankingClient (Domain Name) 9999</pre>
 <br>
 
 ## ![](http://icons.iconarchive.com/icons/devcom/network/48/server-Vista-icon.png)Server
